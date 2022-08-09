@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,xteko.com
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,secureservercdn.net
 DOMAIN-SUFFIX,vhx.tv
 DOMAIN-SUFFIX,vhx.com
