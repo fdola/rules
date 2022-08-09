@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,vhx.com
 DOMAIN-SUFFIX,gitcdn.xyz
 DOMAIN-SUFFIX,gitcdn.link
 DOMAIN-SUFFIX,secureservercdn.net
+DOMAIN-SUFFIX,privnote.com
 
 # > Twitter
 DOMAIN-SUFFIX,ads-twitter.com
