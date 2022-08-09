@@ -832,9 +832,7 @@ rules:
   - DOMAIN-SUFFIX,amazonaws.co.uk,Proxy
   - DOMAIN-SUFFIX,amazonaws.com,Proxy
   - DOMAIN-SUFFIX,amazonaws.tv,Proxy
-  - DOMAIN-SUFFIX,amazonworkdocs.cn @cn,Proxy
   - DOMAIN-SUFFIX,amazonworkdocs.com,Proxy
-  - DOMAIN-SUFFIX,amazonworkdocs.com.cn @cn,Proxy
   - DOMAIN-SUFFIX,amplifyapp.com,Proxy
   - DOMAIN-SUFFIX,amplifyframework.com,Proxy
   - DOMAIN-SUFFIX,aws-iot-hackathon.com,Proxy
