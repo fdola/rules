@@ -282,6 +282,29 @@ rules:
   # > Javascript
   - DOMAIN-SUFFIX,javascript.info,Proxy
 
+  # > Wikimedia
+  - DOMAIN-SUFFIX,mediawiki.org,Proxy
+  - DOMAIN-SUFFIX,wikibooks.org,Proxy
+  - DOMAIN-SUFFIX,wikidata.org,Proxy
+  - DOMAIN-SUFFIX,wikimediafoundation.org,Proxy
+  - DOMAIN-SUFFIX,wikimedia.org,Proxy
+  - DOMAIN-SUFFIX,wikinews.org,Proxy
+  - DOMAIN-SUFFIX,wikipedia.org,Proxy
+  - DOMAIN-SUFFIX,wikiquote.org,Proxy
+  - DOMAIN-SUFFIX,wikisource.org,Proxy
+  - DOMAIN-SUFFIX,wikiversity.org,Proxy
+  - DOMAIN-SUFFIX,wikivoyage.org,Proxy
+  - DOMAIN-SUFFIX,wiktionary.org,Proxy
+  - DOMAIN-SUFFIX,wmfusercontent.org,Proxy
+  - DOMAIN-SUFFIX,w.wiki,Proxy
+  - DOMAIN-SUFFIX,toolforge.org,Proxy
+  - DOMAIN-SUFFIX,wikimediacloud.org,Proxy
+  - DOMAIN-SUFFIX,wmcloud.org,Proxy
+  - DOMAIN-SUFFIX,wmflabs.org,Proxy
+  
+  # > wikiHow
+  - DOMAIN-SUFFIX,wikihow.com,Proxy
+
   # > hCaptcha
   - DOMAIN-SUFFIX,botstop.com,Proxy
   - DOMAIN-SUFFIX,hcaptcha.com,Proxy
