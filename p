@@ -169,6 +169,29 @@ DOMAIN-SUFFIX,piwheels.org
 # > Javascript
 DOMAIN-SUFFIX,javascript.info
 
+# > Wikimedia
+DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,wikibooks.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikimediafoundation.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikiquote.org
+DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikiversity.org
+DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN-SUFFIX,wiktionary.org
+DOMAIN-SUFFIX,wmfusercontent.org
+DOMAIN-SUFFIX,w.wiki
+DOMAIN-SUFFIX,toolforge.org
+DOMAIN-SUFFIX,wikimediacloud.org
+DOMAIN-SUFFIX,wmcloud.org
+DOMAIN-SUFFIX,wmflabs.org
+  
+# > wikiHow
+DOMAIN-SUFFIX,wikihow.com
+
 # > hCaptcha
 DOMAIN-SUFFIX,botstop.com
 DOMAIN-SUFFIX,hcaptcha.com
