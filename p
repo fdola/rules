@@ -625,11 +625,6 @@ DOMAIN-SUFFIX,yamaxun.com
 DOMAIN-SUFFIX,alexa.com
 DOMAIN-SUFFIX,audible.com
 DOMAIN-SUFFIX,createspace.com
-  
-# > PayPal
-DOMAIN-KEYWORD,paypal,Paypal
-DOMAIN-SUFFIX,paypal.com,Paypal
-DOMAIN-SUFFIX,paypalobjects.com,Paypal
 
 # > Cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
@@ -765,6 +760,11 @@ DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,containersonaws.com
 DOMAIN-SUFFIX,elasticbeanstalk.com
 DOMAIN-SUFFIX,thinkboxsoftware.com
+  
+# > PayPal
+DOMAIN-KEYWORD,paypal
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
 
 # > Netflix
 DOMAIN-SUFFIX,fast.com
