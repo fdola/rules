@@ -14,22 +14,13 @@ rules:
   # > CUS
   - DOMAIN-SUFFIX,hostloc.com,Proxy
   - DOMAIN-SUFFIX,v2ex.com,Proxy
-  - DOMAIN-SUFFIX,lvv2.com,Proxy
-  - DOMAIN-SUFFIX,javascript.info,Proxy
-  - DOMAIN-SUFFIX,python.org,Proxy
-  - DOMAIN-SUFFIX,pypi.org,Proxy
-  - DOMAIN-SUFFIX,stackexchange.com,Proxy
-  - DOMAIN-SUFFIX,superuser.com,Proxy
-  - DOMAIN-SUFFIX,gitcdn.xyz,Proxy
-  - DOMAIN-SUFFIX,gitcdn.link,Proxy
-  - DOMAIN-SUFFIX,xteko.com,Proxy
-  - DOMAIN-SUFFIX,jsdelivr.net,Proxy
-  - DOMAIN-SUFFIX,hcaptcha.com,Proxy
   - DOMAIN-SUFFIX,deepl.com,Proxy
-  - DOMAIN-SUFFIX,secureservercdn.net,Proxy
   - DOMAIN,token.safebrowsing.apple,Proxy
   - DOMAIN-SUFFIX,vhx.tv,Proxy
   - DOMAIN-SUFFIX,vhx.com,Proxy
+  - DOMAIN-SUFFIX,gitcdn.xyz,Proxy
+  - DOMAIN-SUFFIX,gitcdn.link,Proxy
+  - DOMAIN-SUFFIX,secureservercdn.net,Proxy
 
   # > IPTV
   - DOMAIN-SUFFIX,51zmt.top,Proxy
@@ -241,30 +232,59 @@ rules:
   - DOMAIN-SUFFIX,opensource.guide,Proxy
   - DOMAIN-SUFFIX,thegithubshop.com,Proxy
 
-  # > Cloudflare
-  - DOMAIN-SUFFIX,cloudflare-dns.com,Proxy
-  - DOMAIN-SUFFIX,cloudflare-ipfs.com,Proxy
-  - DOMAIN-SUFFIX,cloudflare-quic.com,Proxy
-  - DOMAIN-SUFFIX,cloudflare.com,Proxy
-  - DOMAIN-SUFFIX,cloudflare.net,Proxy
-  - DOMAIN-SUFFIX,cloudflareapps.com,Proxy
-  - DOMAIN-SUFFIX,cloudflarebolt.com,Proxy
-  - DOMAIN-SUFFIX,cloudflareclient.com,Proxy
-  - DOMAIN-SUFFIX,cloudflareinsights.com,Proxy
-  - DOMAIN-SUFFIX,cloudflareok.com,Proxy
-  - DOMAIN-SUFFIX,cloudflareresolve.com,Proxy
-  - DOMAIN-SUFFIX,cloudflaressl.com,Proxy
-  - DOMAIN-SUFFIX,cloudflarestatus.com,Proxy
-  - DOMAIN-SUFFIX,cloudflarestream.com,Proxy
-  - DOMAIN-SUFFIX,cloudflaretest.com,Proxy
-  - DOMAIN-SUFFIX,cloudflarewarp.com,Proxy
-  - DOMAIN-SUFFIX,one.one.one,Proxy
-  - DOMAIN-SUFFIX,pacloudflare.com,Proxy
-  - DOMAIN-SUFFIX,pages.dev,Proxy
-  - DOMAIN-SUFFIX,trycloudflare.com,Proxy
-  - DOMAIN-SUFFIX,videodelivery.net,Proxy
-  - DOMAIN-SUFFIX,warp.plus,Proxy
-  - DOMAIN-SUFFIX,workers.dev,Proxy
+  # > Gitlab
+  - DOMAIN-SUFFIX,gitlab.com,Proxy
+  - DOMAIN-SUFFIX,gitlab.io,Proxy
+  - DOMAIN-SUFFIX,gitlab.net,Proxy
+  - DOMAIN-SUFFIX,gitlab-static.net,Proxy
+
+  # > GitBook
+  - DOMAIN-SUFFIX,gitbook.com,Proxy
+  - DOMAIN-SUFFIX,gitbook.io,Proxy
+
+  # > JSDelivr
+  - DOMAIN-SUFFIX,jsdelivr.com,Proxy
+  - DOMAIN-SUFFIX,jsdelivr.net,Proxy
+  - DOMAIN-SUFFIX,esm.run,Proxy
+
+  # > StackExchange
+  - DOMAIN-SUFFIX,askubuntu.com,Proxy
+  - DOMAIN-SUFFIX,blogoverflow.com,Proxy
+  - DOMAIN-SUFFIX,codeforaliving.io,Proxy
+  - DOMAIN-SUFFIX,mathoverflow.net,Proxy
+  - DOMAIN-SUFFIX,serverfault.com,Proxy
+  - DOMAIN-SUFFIX,sstatic.net,Proxy
+  - DOMAIN-SUFFIX,stackapps.com,Proxy
+  - DOMAIN-SUFFIX,stackauth.com,Proxy
+  - DOMAIN-SUFFIX,stackexchange.com,Proxy
+  - DOMAIN-SUFFIX,stackmod.blog,Proxy
+  - DOMAIN-SUFFIX,stackoverflow.blog,Proxy
+  - DOMAIN-SUFFIX,stackoverflow.co,Proxy
+  - DOMAIN-SUFFIX,stackoverflow.com,Proxy
+  - DOMAIN-SUFFIX,stackoverflow.email,Proxy
+  - DOMAIN-SUFFIX,stackoverflowbusiness.com,Proxy
+  - DOMAIN-SUFFIX,stackoverflowcareers.com,Proxy
+  - DOMAIN-SUFFIX,stacksnippets.net,Proxy
+  - DOMAIN-SUFFIX,superuser.com,Proxy
+  - DOMAIN-SUFFIX,tex-talk.net,Proxy
+  - DOMAIN-SUFFIX,thesffblog.com,Proxy
+
+  # > Python
+  - DOMAIN-SUFFIX,pycon.org,Proxy
+  - DOMAIN-SUFFIX,pypa.io,Proxy
+  - DOMAIN-SUFFIX,pypi.io,Proxy
+  - DOMAIN-SUFFIX,pypi.org,Proxy
+  - DOMAIN-SUFFIX,python.org,Proxy
+  - DOMAIN-SUFFIX,pythonhosted.org,Proxy
+  - DOMAIN-SUFFIX,piwheels.org,Proxy
+
+  # > Javascript
+  - DOMAIN-SUFFIX,javascript.info,Proxy
+
+  # > hCaptcha
+  - DOMAIN-SUFFIX,botstop.com,Proxy
+  - DOMAIN-SUFFIX,hcaptcha.com,Proxy
+  - DOMAIN-SUFFIX,hcaptchastatus.com,Proxy
 
   # > Google
   - DOMAIN-SUFFIX,android.com,Proxy
@@ -648,10 +668,194 @@ rules:
   - DOMAIN-SUFFIX,web-instagram.net,Proxy
   - DOMAIN-SUFFIX,wwwinstagram.com,Proxy
 
+  # > Amazon
+  - DOMAIN-SUFFIX,amazon,Proxy
+  - DOMAIN-SUFFIX,xn--cckwcxetd,Proxy
+  - DOMAIN-SUFFIX,xn--jlq480n2rg,Proxy
+  - DOMAIN-SUFFIX,yamaxun,Proxy
+  - DOMAIN-SUFFIX,zappos,Proxy
+  - DOMAIN-SUFFIX,a2z.com,Proxy
+  - DOMAIN-SUFFIX,aboutamazon.com,Proxy
+  - DOMAIN-SUFFIX,amaaozn.com,Proxy
+  - DOMAIN-SUFFIX,amazon-fashions.com,Proxy
+  - DOMAIN-SUFFIX,amazon-jp-recruiting.com,Proxy
+  - DOMAIN-SUFFIX,amazon-lantern.com,Proxy
+  - DOMAIN-SUFFIX,amazon-launchpad.com,Proxy
+  - DOMAIN-SUFFIX,amazon.sg,Proxy
+  - DOMAIN-SUFFIX,amazonalexavoxcon.com,Proxy
+  - DOMAIN-SUFFIX,amazonauthorinsights.com,Proxy
+  - DOMAIN-SUFFIX,amazonbusiness.org,Proxy
+  - DOMAIN-SUFFIX,amazonbusinessblog.com,Proxy
+  - DOMAIN-SUFFIX,amazondevicesupport.com,Proxy
+  - DOMAIN-SUFFIX,amazonfctours.com,Proxy
+  - DOMAIN-SUFFIX,amazonianblog.com,Proxy
+  - DOMAIN-SUFFIX,amazonimages.com,Proxy
+  - DOMAIN-SUFFIX,amazonlaunchpad.com,Proxy
+  - DOMAIN-SUFFIX,amazonliterarypartnership.com,Proxy
+  - DOMAIN-SUFFIX,amazonlumberyard.wang,Proxy
+  - DOMAIN-SUFFIX,amazonpay.com,Proxy
+  - DOMAIN-SUFFIX,amazonsdi.com,Proxy
+  - DOMAIN-SUFFIX,amazonstudiosguilds.com,Proxy
+  - DOMAIN-SUFFIX,amazonvideodirect.com,Proxy
+  - DOMAIN-SUFFIX,amzn.asia,Proxy
+  - DOMAIN-SUFFIX,amzn.com,Proxy
+  - DOMAIN-SUFFIX,amzn.to,Proxy
+  - DOMAIN-SUFFIX,amznl.com,Proxy
+  - DOMAIN-SUFFIX,associates-amazon.com,Proxy
+  - DOMAIN-SUFFIX,gameon-masters.com,Proxy
+  - DOMAIN-SUFFIX,gdansk-amazon.com,Proxy
+  - DOMAIN-SUFFIX,images-amazon.com,Proxy
+  - DOMAIN-SUFFIX,media-amazon.com,Proxy
+  - DOMAIN-SUFFIX,primeday.info,Proxy
+  - DOMAIN-SUFFIX,siege-amazon.com,Proxy
+  - DOMAIN-SUFFIX,ssl-images-amazon.com,Proxy
+  - DOMAIN-SUFFIX,ueberamazon.de,Proxy
+  - DOMAIN-SUFFIX,yamaxun.com,Proxy
+  - DOMAIN-SUFFIX,alexa.com,Proxy
+  - DOMAIN-SUFFIX,audible.com,Proxy
+  - DOMAIN-SUFFIX,createspace.com,Proxy
+  
   # > PayPal
   - DOMAIN-KEYWORD,paypal,Paypal
   - DOMAIN-SUFFIX,paypal.com,Paypal
   - DOMAIN-SUFFIX,paypalobjects.com,Paypal
+
+  # > Cloudflare
+  - DOMAIN-SUFFIX,cloudflare-dns.com,Proxy
+  - DOMAIN-SUFFIX,cloudflare-ipfs.com,Proxy
+  - DOMAIN-SUFFIX,cloudflare-quic.com,Proxy
+  - DOMAIN-SUFFIX,cloudflare.com,Proxy
+  - DOMAIN-SUFFIX,cloudflare.net,Proxy
+  - DOMAIN-SUFFIX,cloudflareapps.com,Proxy
+  - DOMAIN-SUFFIX,cloudflarebolt.com,Proxy
+  - DOMAIN-SUFFIX,cloudflareclient.com,Proxy
+  - DOMAIN-SUFFIX,cloudflareinsights.com,Proxy
+  - DOMAIN-SUFFIX,cloudflareok.com,Proxy
+  - DOMAIN-SUFFIX,cloudflareresolve.com,Proxy
+  - DOMAIN-SUFFIX,cloudflaressl.com,Proxy
+  - DOMAIN-SUFFIX,cloudflarestatus.com,Proxy
+  - DOMAIN-SUFFIX,cloudflarestream.com,Proxy
+  - DOMAIN-SUFFIX,cloudflaretest.com,Proxy
+  - DOMAIN-SUFFIX,cloudflarewarp.com,Proxy
+  - DOMAIN-SUFFIX,one.one.one,Proxy
+  - DOMAIN-SUFFIX,pacloudflare.com,Proxy
+  - DOMAIN-SUFFIX,pages.dev,Proxy
+  - DOMAIN-SUFFIX,trycloudflare.com,Proxy
+  - DOMAIN-SUFFIX,videodelivery.net,Proxy
+  - DOMAIN-SUFFIX,warp.plus,Proxy
+  - DOMAIN-SUFFIX,workers.dev,Proxy
+
+  # > Akamai
+  - DOMAIN-SUFFIX,ak1.net,Proxy
+  - DOMAIN-SUFFIX,aka-ai.com,Proxy
+  - DOMAIN-SUFFIX,aka-ai.net,Proxy
+  - DOMAIN-SUFFIX,akacrypto.net,Proxy
+  - DOMAIN-SUFFIX,akadeem.net,Proxy
+  - DOMAIN-SUFFIX,akadns.com,Proxy
+  - DOMAIN-SUFFIX,akadns6.net,Proxy
+  - DOMAIN-SUFFIX,akaeai.com,Proxy
+  - DOMAIN-SUFFIX,akafms.net,Proxy
+  - DOMAIN-SUFFIX,akahost.net,Proxy
+  - DOMAIN-SUFFIX,akaint.net,Proxy
+  - DOMAIN-SUFFIX,akam.net,Proxy
+  - DOMAIN-SUFFIX,akamaa.com,Proxy
+  - DOMAIN-SUFFIX,akamah.com,Proxy
+  - DOMAIN-SUFFIX,akamak.com,Proxy
+  - DOMAIN-SUFFIX,akamam.com,Proxy
+  - DOMAIN-SUFFIX,akamai-access.com,Proxy
+  - DOMAIN-SUFFIX,akamai-access.net,Proxy
+  - DOMAIN-SUFFIX,akamai-cdn.com,Proxy
+  - DOMAIN-SUFFIX,akamai-platform-internal.net,Proxy
+  - DOMAIN-SUFFIX,akamai-platform-staging.com,Proxy
+  - DOMAIN-SUFFIX,akamai-platform.net,Proxy
+  - DOMAIN-SUFFIX,akamai-regression.net,Proxy
+  - DOMAIN-SUFFIX,akamai-staging.net,Proxy
+  - DOMAIN-SUFFIX,akamai-sucks.net,Proxy
+  - DOMAIN-SUFFIX,akamai-thailand.com,Proxy
+  - DOMAIN-SUFFIX,akamai-thailand.net,Proxy
+  - DOMAIN-SUFFIX,akamai-trials.com,Proxy
+  - DOMAIN-SUFFIX,akamai.co.kr,Proxy
+  - DOMAIN-SUFFIX,akamai.com,Proxy
+  - DOMAIN-SUFFIX,akamai.net,Proxy
+  - DOMAIN-SUFFIX,akamaientrypoint.net,Proxy
+  - DOMAIN-SUFFIX,akamaietpcnctest.com,Proxy
+  - DOMAIN-SUFFIX,akamaietpcompromisedcnctest.com,Proxy
+  - DOMAIN-SUFFIX,akamaietpcompromisedmalwaretest.com,Proxy
+  - DOMAIN-SUFFIX,akamaietpmalwaretest.com,Proxy
+  - DOMAIN-SUFFIX,akamaietpphishingtest.com,Proxy
+  - DOMAIN-SUFFIX,akamaihd-staging.net,Proxy
+  - DOMAIN-SUFFIX,akamaihd.com,Proxy
+  - DOMAIN-SUFFIX,akamaihd.net,Proxy
+  - DOMAIN-SUFFIX,akamaimagicmath.net,Proxy
+  - DOMAIN-SUFFIX,akamainewzealand.com,Proxy
+  - DOMAIN-SUFFIX,akamaiphillipines.com,Proxy
+  - DOMAIN-SUFFIX,akamaiphillipines.net,Proxy
+  - DOMAIN-SUFFIX,akamaitech.com,Proxy
+  - DOMAIN-SUFFIX,akamaitech.net,Proxy
+  - DOMAIN-SUFFIX,akamaitechnologies.com,Proxy
+  - DOMAIN-SUFFIX,akamaitechnologies.net,Proxy
+  - DOMAIN-SUFFIX,akamaisingapore.net,Proxy
+  - DOMAIN-SUFFIX,akamaized-staging.net,Proxy
+  - DOMAIN-SUFFIX,akamaized.net,Proxy
+  - DOMAIN-SUFFIX,akamaizercentral.com,Proxy
+  - DOMAIN-SUFFIX,akamci.com,Proxy
+  - DOMAIN-SUFFIX,akami.com,Proxy
+  - DOMAIN-SUFFIX,akami.net,Proxy
+  - DOMAIN-SUFFIX,akamii.com,Proxy
+  - DOMAIN-SUFFIX,akamqi.com,Proxy
+  - DOMAIN-SUFFIX,akastream.com,Proxy
+  - DOMAIN-SUFFIX,akastream.net,Proxy
+  - DOMAIN-SUFFIX,akatns.net,Proxy
+  - DOMAIN-SUFFIX,iamakamai.com,Proxy
+  - DOMAIN-SUFFIX,iamakamai.net,Proxy
+  - DOMAIN-SUFFIX,soasta-dswb.com,Proxy
+  - DOMAIN-SUFFIX,srtcdn.net,Proxy
+
+  # > Fastly
+  - DOMAIN-SUFFIX,fastly.com,Proxy
+  - DOMAIN-SUFFIX,fastly.net,Proxy
+  - DOMAIN-SUFFIX,fastlylabs.com,Proxy
+  - DOMAIN-SUFFIX,fastlylb.net,Proxy
+  - DOMAIN-SUFFIX,fastly-terrarium.com,Proxy
+  - DOMAIN-SUFFIX,zencdn.net,Proxy
+
+  # > Fastly
+  - DOMAIN-SUFFIX,stackpath.com,Proxy
+  - DOMAIN-SUFFIX,stackpath.dev,Proxy
+
+  # > AWS
+  - DOMAIN-SUFFIX,aws,Proxy
+  - DOMAIN-SUFFIX,acmvalidations.com,Proxy
+  - DOMAIN-SUFFIX,acmvalidationsaws.com,Proxy
+  - DOMAIN-SUFFIX,aesworkshops.com,Proxy
+  - DOMAIN-SUFFIX,amazonaws-china.com,Proxy
+  - DOMAIN-SUFFIX,amazonaws.co.uk,Proxy
+  - DOMAIN-SUFFIX,amazonaws.com,Proxy
+  - DOMAIN-SUFFIX,amazonaws.tv,Proxy
+  - DOMAIN-SUFFIX,amazonworkdocs.cn @cn,Proxy
+  - DOMAIN-SUFFIX,amazonworkdocs.com,Proxy
+  - DOMAIN-SUFFIX,amazonworkdocs.com.cn @cn,Proxy
+  - DOMAIN-SUFFIX,amplifyapp.com,Proxy
+  - DOMAIN-SUFFIX,amplifyframework.com,Proxy
+  - DOMAIN-SUFFIX,aws-iot-hackathon.com,Proxy
+  - DOMAIN-SUFFIX,awsautopilot.com,Proxy
+  - DOMAIN-SUFFIX,awsautoscaling.com,Proxy
+  - DOMAIN-SUFFIX,awsbraket.com,Proxy
+  - DOMAIN-SUFFIX,awscommandlineinterface.com,Proxy
+  - DOMAIN-SUFFIX,awsedstart.com,Proxy
+  - DOMAIN-SUFFIX,awseducate.com,Proxy
+  - DOMAIN-SUFFIX,awseducate.net,Proxy
+  - DOMAIN-SUFFIX,awseducate.org,Proxy
+  - DOMAIN-SUFFIX,awsloft-johannesburg.com,Proxy
+  - DOMAIN-SUFFIX,awsloft-stockholm.com,Proxy
+  - DOMAIN-SUFFIX,awssecworkshops.com,Proxy
+  - DOMAIN-SUFFIX,awsstatic.com,Proxy
+  - DOMAIN-SUFFIX,awsthinkbox.com,Proxy
+  - DOMAIN-SUFFIX,cdkworkshop.com,Proxy
+  - DOMAIN-SUFFIX,cloudfront.net,Proxy
+  - DOMAIN-SUFFIX,containersonaws.com,Proxy
+  - DOMAIN-SUFFIX,elasticbeanstalk.com,Proxy
+  - DOMAIN-SUFFIX,thinkboxsoftware.com,Proxy
 
   # > Other
   - DOMAIN-KEYWORD,appledaily,Proxy
