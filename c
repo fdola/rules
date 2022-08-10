@@ -47,6 +47,19 @@ rules:
   # > IPTV-TW
   - IP-CIDR,61.219.170.95/32,Proxy,no-resolve
 
+  # > Apple
+  - DOMAIN-SUFFIX,cdn-apple.com,Proxy
+  - DOMAIN-SUFFIX,mzstatic.com,Proxy
+  - DOMAIN-SUFFIX,aaplimg.com,Proxy
+  - DOMAIN-SUFFIX,apple.co,Proxy
+  - DOMAIN-SUFFIX,apple.com,Proxy
+  - DOMAIN-SUFFIX,icloud-content.com,Proxy
+  - DOMAIN-SUFFIX,icloud.com,Proxy
+  - DOMAIN-SUFFIX,itunes.com,Proxy
+  - DOMAIN-SUFFIX,itunes.apple.com,Proxy
+  - DOMAIN-SUFFIX,lookup-api.apple.com,Proxy
+  - DOMAIN-SUFFIX,me.com,Proxy
+
   # > Twitter
   - DOMAIN-SUFFIX,ads-twitter.com,Proxy
   - DOMAIN-SUFFIX,periscope.tv,Proxy
