@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,ampproject.org
 DOMAIN,token.safebrowsing.apple
 DOMAIN-SUFFIX,vhx.tv
 DOMAIN-SUFFIX,vhx.com
