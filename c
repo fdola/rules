@@ -15,6 +15,7 @@ rules:
   - DOMAIN-SUFFIX,hostloc.com,Proxy
   - DOMAIN-SUFFIX,v2ex.com,Proxy
   - DOMAIN-SUFFIX,deepl.com,Proxy
+  - DOMAIN-SUFFIX,letsencrypt.org,Proxy
   - DOMAIN-SUFFIX,ampproject.org,Proxy
   - DOMAIN,token.safebrowsing.apple,Proxy
   - DOMAIN-SUFFIX,vhx.tv,Proxy
@@ -110,7 +111,7 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,Proxy,no-resolve
   - IP-CIDR6,2001:b28:f23c::/48,Proxy,no-resolve
   - IP-CIDR6,2a0a:f280::/32,Proxy,no-resolve
-  
+
   - IP-CIDR,109.239.140.0/24,Proxy,no-resolve
   - IP-CIDR,149.154.164.0/22,Proxy,no-resolve
   - IP-CIDR,149.154.172.0/22,Proxy,no-resolve
@@ -710,6 +711,10 @@ rules:
   - DOMAIN-SUFFIX,onlineinstagram.com,Proxy
   - DOMAIN-SUFFIX,web-instagram.net,Proxy
   - DOMAIN-SUFFIX,wwwinstagram.com,Proxy
+
+  # > Facebook
+  - DOMAIN-SUFFIX,fb.me,Proxy
+  - DOMAIN-SUFFIX,fbcdn.net,Proxy
 
   # > Amazon
   - DOMAIN-SUFFIX,amazon,Proxy
