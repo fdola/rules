@@ -11,6 +11,19 @@ DOMAIN-SUFFIX,gitcdn.link
 DOMAIN-SUFFIX,secureservercdn.net
 DOMAIN-SUFFIX,privnote.com
 
+# > Apple
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,lookup-api.apple.com
+DOMAIN-SUFFIX,me.com
+
 # > Twitter
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,periscope.tv
