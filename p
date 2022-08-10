@@ -61,6 +61,11 @@ IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
 
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,149.154.164.0/22,no-resolve
+IP-CIDR,149.154.172.0/22,no-resolve
+IP-CIDR,5.28.192.0/18,no-resolve
+
 # > Youtube
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
