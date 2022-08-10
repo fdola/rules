@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN,token.safebrowsing.apple
 DOMAIN-SUFFIX,vhx.tv
@@ -597,6 +598,10 @@ DOMAIN-SUFFIX,online-instagram.com
 DOMAIN-SUFFIX,onlineinstagram.com
 DOMAIN-SUFFIX,web-instagram.net
 DOMAIN-SUFFIX,wwwinstagram.com
+
+# > Facebook
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
 
 # > Amazon
 DOMAIN-SUFFIX,amazon
