@@ -15,6 +15,7 @@ rules:
   - DOMAIN-SUFFIX,hostloc.com,Proxy
   - DOMAIN-SUFFIX,v2ex.com,Proxy
   - DOMAIN-SUFFIX,deepl.com,Proxy
+  - DOMAIN-SUFFIX,ampproject.org,Proxy
   - DOMAIN,token.safebrowsing.apple,Proxy
   - DOMAIN-SUFFIX,vhx.tv,Proxy
   - DOMAIN-SUFFIX,vhx.com,Proxy
