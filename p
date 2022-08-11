@@ -1004,6 +1004,8 @@ DOMAIN-SUFFIX,thestationbymaker.com
 DOMAIN-SUFFIX,thisispolaris.com
 DOMAIN-SUFFIX,watchdisneyfe.com
 
+DOMAIN-SUFFIX,braze.com
+
 # > Other
 DOMAIN-KEYWORD,appledaily
 DOMAIN-KEYWORD,beetalk
