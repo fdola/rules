@@ -308,6 +308,12 @@ rules:
   - DOMAIN-SUFFIX,watchdisneyfe.com,Media
 
   - DOMAIN-SUFFIX,braze.com,Media
+  - DOMAIN-SUFFIX,cdn.optimizely.com,Media
+  - DOMAIN-SUFFIX,cdn.registerdisney.go.com,Media
+  - DOMAIN-SUFFIX,cws.conviva.com,Media
+  - DOMAIN-SUFFIX,d9.flashtalking.com,Media
+  - DOMAIN-SUFFIX,disney.demdex.net,Media
+  - DOMAIN-SUFFIX,js-agent.newrelic.com,Media
 
   # > Dropbox
   - DOMAIN-SUFFIX,db.tt,Proxy
