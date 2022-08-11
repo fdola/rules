@@ -963,16 +963,6 @@ DOMAIN-SUFFIX,disneyinternationalhd.com
 DOMAIN-SUFFIX,disneyjunior.com
 DOMAIN-SUFFIX,disneyjuniortreataday.com
 DOMAIN-SUFFIX,disneylatino.com
-DOMAIN-SUFFIX,disneymagicmoments.co.il
-DOMAIN-SUFFIX,disneymagicmoments.co.uk
-DOMAIN-SUFFIX,disneymagicmoments.co.za
-DOMAIN-SUFFIX,disneymagicmoments.de
-DOMAIN-SUFFIX,disneymagicmoments.es
-DOMAIN-SUFFIX,disneymagicmoments.fr
-DOMAIN-SUFFIX,disneymagicmoments.gen.tr
-DOMAIN-SUFFIX,disneymagicmoments.gr
-DOMAIN-SUFFIX,disneymagicmoments.it
-DOMAIN-SUFFIX,disneymagicmoments.pl
 DOMAIN-SUFFIX,disneymagicmomentsme.com
 DOMAIN-SUFFIX,disneyme.com
 DOMAIN-SUFFIX,disneymeetingsandevents.com
