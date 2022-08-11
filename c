@@ -118,7 +118,7 @@ rules:
   - IP-CIDR,5.28.192.0/18,Proxy,no-resolve
 
   # > Youtube
-  - DOMAIN-SUFFIX,ggpht.cn,Proxy
+  - DOMAIN-SUFFIX,youtube,Proxy
   - DOMAIN-SUFFIX,ggpht.com,Proxy
   - DOMAIN-SUFFIX,googlevideo.com,Proxy
   - DOMAIN-SUFFIX,withyoutube.com,Proxy
@@ -196,24 +196,126 @@ rules:
   - IP-CIDR,8.8.4.4/32,Media,no-resolve
 
   # > Disney Plus
-  - DOMAIN-SUFFIX,adobedtm.com,Media
-  - DOMAIN-SUFFIX,bam.nr-date.net,Media
+  - DOMAIN-SUFFIX,abc-studios.com,Media
+  - DOMAIN-SUFFIX,abc.com,Media
+  - DOMAIN-SUFFIX,edgedatg.com,Media
+
   - DOMAIN-SUFFIX,bamgrid.com,Media
-  - DOMAIN-SUFFIX,braze.com,Media
-  - DOMAIN-SUFFIX,cdn.optimizely.com,Media
-  - DOMAIN-SUFFIX,cdn.registerdisney.go.com,Media
-  - DOMAIN-SUFFIX,cws.conviva.com,Media
-  - DOMAIN-SUFFIX,d9.flashtalking.com,Media
-  - DOMAIN-SUFFIX,disney.demdex.net,Media
+  - DOMAIN-SUFFIX,dmed.technology,Media
+
+  - DOMAIN-SUFFIX,dtci.co,Media
+  - DOMAIN-SUFFIX,dtci.technology,Media
+  - DOMAIN-SUFFIX,espn.co.uk,Media
+  - DOMAIN-SUFFIX,espn.com,Media
+  - DOMAIN-SUFFIX,espn.net,Media
+  - DOMAIN-SUFFIX,espncdn.com,Media
+  - DOMAIN-SUFFIX,espnqa.com,Media
+  - DOMAIN-SUFFIX,watchespn.com,Media
+  - DOMAIN-SUFFIX,omtrdc.net,Media
+
+  - DOMAIN-SUFFIX,marvel.com,Media
+  - DOMAIN-SUFFIX,marvel10thanniversary.com,Media
+  - DOMAIN-SUFFIX,marveldimensionofheroes.com,Media
+  - DOMAIN-SUFFIX,marvelparty.net,Media
+  - DOMAIN-SUFFIX,marvelpinball.com,Media
+  - DOMAIN-SUFFIX,marvelsdoubleagent.com,Media
+  - DOMAIN-SUFFIX,marvelspotlightplays.com,Media
+  - DOMAIN-SUFFIX,marvelsuperheroseptember.com,Media
+  - DOMAIN-SUFFIX,marvelsuperwar.com,Media
+  - DOMAIN-SUFFIX,themarvelexperiencetour.com,Media
+
+  - DOMAIN-SUFFIX,natgeomaps.com,Media
+  - DOMAIN-SUFFIX,nationalgeographic.com,Media
+  - DOMAIN-SUFFIX,nationalgeographicpartners.com,Media
+  - DOMAIN-SUFFIX,ngeo.com,Media
+
+  - DOMAIN-SUFFIX,disney.asia,Media
+  - DOMAIN-SUFFIX,disney.co.jp,Media
+  - DOMAIN-SUFFIX,disney.co.kr,Media
+  - DOMAIN-SUFFIX,disney.com,Media
+  - DOMAIN-SUFFIX,disney.sg,Media
+  - DOMAIN-SUFFIX,20thcenturystudios.com.au,Media
+  - DOMAIN-SUFFIX,20thcenturystudios.com.br,Media
+  - DOMAIN-SUFFIX,20thcenturystudios.jp,Media
+  - DOMAIN-SUFFIX,adventuresbydisney.com,Media
+  - DOMAIN-SUFFIX,babble.com,Media
+  - DOMAIN-SUFFIX,babyzone.com,Media
+  - DOMAIN-SUFFIX,bamgrid.com,Media
+  - DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk,Media
+  - DOMAIN-SUFFIX,dilcdn.com,Media
+  - DOMAIN-SUFFIX,disney-asia.com,Media
+  - DOMAIN-SUFFIX,disney-discount.com,Media
+  - DOMAIN-SUFFIX,disney-plus.net,Media
+  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,Media
+  - DOMAIN-SUFFIX,disney-studio.com,Media
+  - DOMAIN-SUFFIX,disney-studio.net,Media
   - DOMAIN-SUFFIX,disney.my.sentry.io,Media
+  - DOMAIN-SUFFIX,disneyadsales.com,Media
+  - DOMAIN-SUFFIX,disneyarena.com,Media
+  - DOMAIN-SUFFIX,disneyaulani.com,Media
+  - DOMAIN-SUFFIX,disneybaby.com,Media
+  - DOMAIN-SUFFIX,disneycareers.com,Media
+  - DOMAIN-SUFFIX,disneychannelonstage.com,Media
+  - DOMAIN-SUFFIX,disneychannelroadtrip.com,Media
+  - DOMAIN-SUFFIX,disneycruisebrasil.com,Media
+  - DOMAIN-SUFFIX,disneyenconcert.com,Media
+  - DOMAIN-SUFFIX,disneyiejobs.com,Media
+  - DOMAIN-SUFFIX,disneyinflight.com,Media
+  - DOMAIN-SUFFIX,disneyinternational.com,Media
+  - DOMAIN-SUFFIX,disneyinternationalhd.com,Media
+  - DOMAIN-SUFFIX,disneyjunior.com,Media
+  - DOMAIN-SUFFIX,disneyjuniortreataday.com,Media
+  - DOMAIN-SUFFIX,disneylatino.com,Media
+  - DOMAIN-SUFFIX,disneymagicmoments.co.il,Media
+  - DOMAIN-SUFFIX,disneymagicmoments.co.uk,Media
+  - DOMAIN-SUFFIX,disneymagicmoments.co.za,Media
+  - DOMAIN-SUFFIX,disneymagicmoments.de,Media
+  - DOMAIN-SUFFIX,disneymagicmoments.es,Media
+  - DOMAIN-SUFFIX,disneymagicmoments.fr,Media
+  - DOMAIN-SUFFIX,disneymagicmoments.gen.tr,Media
+  - DOMAIN-SUFFIX,disneymagicmoments.gr,Media
+  - DOMAIN-SUFFIX,disneymagicmoments.it,Media
+  - DOMAIN-SUFFIX,disneymagicmoments.pl,Media
+  - DOMAIN-SUFFIX,disneymagicmomentsme.com,Media
+  - DOMAIN-SUFFIX,disneyme.com,Media
+  - DOMAIN-SUFFIX,disneymeetingsandevents.com,Media
+  - DOMAIN-SUFFIX,disneymovieinsiders.com,Media
+  - DOMAIN-SUFFIX,disneymusicpromotion.com,Media
+  - DOMAIN-SUFFIX,disneynewseries.com,Media
+  - DOMAIN-SUFFIX,disneynow.com,Media
+  - DOMAIN-SUFFIX,disneypeoplesurveys.com,Media
   - DOMAIN-SUFFIX,disneyplus.bn5x.net,Media
   - DOMAIN-SUFFIX,disneyplus.com,Media
   - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,Media
-  - DOMAIN-SUFFIX,disney-plus.net,Media
-  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,Media
+  - DOMAIN-SUFFIX,disneyredirects.com,Media
+  - DOMAIN-SUFFIX,disneysrivieraresort.com,Media
+  - DOMAIN-SUFFIX,disneystore.com,Media
+  - DOMAIN-SUFFIX,disneystreaming.com,Media
+  - DOMAIN-SUFFIX,disneysubscription.com,Media
+  - DOMAIN-SUFFIX,disneytickets.co.uk,Media
+  - DOMAIN-SUFFIX,disneyturkiye.com.tr,Media
+  - DOMAIN-SUFFIX,disneytvajobs.com,Media
+  - DOMAIN-SUFFIX,disneyworld-go.com,Media
   - DOMAIN-SUFFIX,dssott.com,Media
-  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,Media
-  - DOMAIN-SUFFIX,js-agent.newrelic.com,Media
+  - DOMAIN-SUFFIX,go-disneyworldgo.com,Media
+  - DOMAIN-SUFFIX,go.com,Media
+  - DOMAIN-SUFFIX,mickey.tv,Media
+  - DOMAIN-SUFFIX,moviesanywhere.com,Media
+  - DOMAIN-SUFFIX,nomadlandmovie.ch,Media
+  - DOMAIN-SUFFIX,playmation.com,Media
+  - DOMAIN-SUFFIX,shopdisney.com,Media
+  - DOMAIN-SUFFIX,shops-disney.com,Media
+  - DOMAIN-SUFFIX,sorcerersarena.com,Media
+  - DOMAIN-SUFFIX,spaindisney.com,Media
+  - DOMAIN-SUFFIX,star-brasil.com,Media
+  - DOMAIN-SUFFIX,star-latam.com,Media
+  - DOMAIN-SUFFIX,starwars.com,Media
+  - DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com,Media
+  - DOMAIN-SUFFIX,starwarskids.com,Media
+  - DOMAIN-SUFFIX,streamingdisney.net,Media
+  - DOMAIN-SUFFIX,thestationbymaker.com,Media
+  - DOMAIN-SUFFIX,thisispolaris.com,Media
+  - DOMAIN-SUFFIX,watchdisneyfe.com,Media
 
   # > Dropbox
   - DOMAIN-SUFFIX,db.tt,Proxy
@@ -233,6 +335,9 @@ rules:
   - DOMAIN-SUFFIX,getdropbox.com,Proxy
 
   # > Github
+  - DOMAIN-SUFFIX,npm.community,Proxy
+  - DOMAIN-SUFFIX,npmjs.com,Proxy
+  - DOMAIN-SUFFIX,npmjs.org,Proxy
   - DOMAIN-SUFFIX,atom.io,Proxy
   - DOMAIN-SUFFIX,dependabot.com,Proxy
   - DOMAIN-SUFFIX,ghcr.io,Proxy
@@ -333,10 +438,22 @@ rules:
   # > Google
   - DOMAIN-SUFFIX,android.com,Proxy
   - DOMAIN-SUFFIX,androidify.com,Proxy
+
   - DOMAIN-SUFFIX,blogger.com,Proxy
   - DOMAIN-SUFFIX,blogblog.com,Proxy
   - DOMAIN-SUFFIX,blogspot.com,Proxy
   - DOMAIN-SUFFIX,blogspot.sg,Proxy
+
+  - DOMAIN-SUFFIX,dart.dev,Proxy
+  - DOMAIN-SUFFIX,dartlang.org,Proxy
+  - DOMAIN-SUFFIX,dartpad.dev,Proxy
+
+  - DOMAIN-SUFFIX,fastlane.ci,Proxy
+  - DOMAIN-SUFFIX,fastlane.tools,Proxy
+
+  - DOMAIN-SUFFIX,flutter.dev,Proxy
+  - DOMAIN-SUFFIX,flutterapp.com,Proxy
+
   - DOMAIN-SUFFIX,go-lang.com,Proxy
   - DOMAIN-SUFFIX,go-lang.net,Proxy
   - DOMAIN-SUFFIX,go-lang.org,Proxy
@@ -345,6 +462,36 @@ rules:
   - DOMAIN-SUFFIX,golang.com,Proxy
   - DOMAIN-SUFFIX,golang.net,Proxy
   - DOMAIN-SUFFIX,golang.org,Proxy
+
+  - DOMAIN-SUFFIX,charlestonroadregistry.com,Proxy
+  - DOMAIN-SUFFIX,registry.google,Proxy
+  - DOMAIN-SUFFIX,get.app,Proxy
+  - DOMAIN-SUFFIX,get.dev,Proxy
+  - DOMAIN-SUFFIX,get.how,Proxy
+  - DOMAIN-SUFFIX,get.page,Proxy
+  - DOMAIN-SUFFIX,iam.soy,Proxy
+  - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Proxy
+
+  - DOMAIN,scholar.google.com,Proxy
+  - DOMAIN,scholar.google.com.sg,Proxy
+  - DOMAIN,scholar.l.google.com,Proxy
+
+  - DOMAIN-SUFFIX,pki.goog,Proxy
+
+  - DOMAIN-SUFFIX,kaggle.com,Proxy
+  - DOMAIN-SUFFIX,kaggle.io,Proxy
+
+  - DOMAIN-SUFFIX,deps.dev,Proxy
+  - DOMAIN-SUFFIX,deps.info,Proxy
+  - DOMAIN-SUFFIX,opensourceinsight.dev,Proxy
+  - DOMAIN-SUFFIX,opensourceinsights.dev,Proxy
+
+  - DOMAIN-SUFFIX,polymer-project.org,Proxy
+  - DOMAIN-SUFFIX,polymerproject.org,Proxy
+
+  - DOMAIN-SUFFIX,v8.dev,Proxy
+  - DOMAIN-SUFFIX,v8project.org,Proxy
+
   - DOMAIN-SUFFIX,and,Proxy
   - DOMAIN-SUFFIX,chrome,Proxy
   - DOMAIN-SUFFIX,dclk,Proxy
