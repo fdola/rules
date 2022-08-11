@@ -307,6 +307,8 @@ rules:
   - DOMAIN-SUFFIX,thisispolaris.com,Media
   - DOMAIN-SUFFIX,watchdisneyfe.com,Media
 
+  - DOMAIN-SUFFIX,braze.com,Media
+
   # > Dropbox
   - DOMAIN-SUFFIX,db.tt,Proxy
   - DOMAIN-SUFFIX,dropbox-dns.com,Proxy
