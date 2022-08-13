@@ -215,6 +215,13 @@ DOMAIN-SUFFIX,wmflabs.org
 # > wikiHow
 DOMAIN-SUFFIX,wikihow.com
 
+# > Reddit
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,redditmail.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redd.it
+
 # > hCaptcha
 DOMAIN-SUFFIX,botstop.com
 DOMAIN-SUFFIX,hcaptcha.com
