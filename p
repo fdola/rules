@@ -1061,6 +1061,7 @@ DOMAIN-SUFFIX,amazon-fashions.com
 DOMAIN-SUFFIX,amazon-jp-recruiting.com
 DOMAIN-SUFFIX,amazon-lantern.com
 DOMAIN-SUFFIX,amazon-launchpad.com
+DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazon.sg
 DOMAIN-SUFFIX,amazonalexavoxcon.com
 DOMAIN-SUFFIX,amazonauthorinsights.com
