@@ -15,7 +15,6 @@ rules:
   - DOMAIN-SUFFIX,hostloc.com,Proxy
   - DOMAIN-SUFFIX,v2ex.com,Proxy
   - DOMAIN-SUFFIX,deepl.com,Proxy
-  - DOMAIN-SUFFIX,letsencrypt.org,Proxy
   - DOMAIN-SUFFIX,ampproject.org,Proxy
   - DOMAIN,token.safebrowsing.apple,Proxy
   - DOMAIN-SUFFIX,vhx.tv,Proxy
@@ -1448,6 +1447,169 @@ rules:
   - DOMAIN-SUFFIX,containersonaws.com,Proxy
   - DOMAIN-SUFFIX,elasticbeanstalk.com,Proxy
   - DOMAIN-SUFFIX,thinkboxsoftware.com,Proxy
+
+  # > CAs
+  - DOMAIN-SUFFIX,actalis.com,Proxy
+  - DOMAIN-SUFFIX,actalis.it,Proxy
+
+  - DOMAIN-SUFFIX,amazontrust.com,Proxy
+  - DOMAIN-SUFFIX,awstrust.com,Proxy
+  - DOMAIN-SUFFIX,ss2.us,Proxy
+
+  - DOMAIN-SUFFIX,buypass-ssl.com,Proxy
+  - DOMAIN-SUFFIX,buypass.com,Proxy
+  - DOMAIN-SUFFIX,buypass.no,Proxy
+  - DOMAIN-SUFFIX,buypass.se,Proxy
+  - DOMAIN-SUFFIX,minid.no,Proxy
+
+  - DOMAIN-SUFFIX,certum.pl,Proxy
+  - DOMAIN-SUFFIX,ocsp-certum.com,Proxy
+
+  - DOMAIN-SUFFIX,comodo.com,Proxy
+  - DOMAIN-SUFFIX,comodo.net,Proxy
+  - DOMAIN-SUFFIX,comodoca.com,Proxy
+  - DOMAIN-SUFFIX,comodoca2.com,Proxy
+  - DOMAIN-SUFFIX,comodoca3.com,Proxy
+  - DOMAIN-SUFFIX,comodoca4.com,Proxy
+
+  - DOMAIN-SUFFIX,cybertrust.co.jp,Proxy
+  - DOMAIN-SUFFIX,cybertrust.ne.jp,Proxy
+
+  - DOMAIN-SUFFIX,digicert-cn.com,Proxy
+  - DOMAIN-SUFFIX,digicert.com,Proxy
+  - DOMAIN-SUFFIX,digitalcertvalidation.com,Proxy
+  - DOMAIN-SUFFIX,freessl.com,Proxy
+  - DOMAIN-SUFFIX,geotrust.com,Proxy
+  - DOMAIN-SUFFIX,rapidssl.com,Proxy
+  - DOMAIN-SUFFIX,thawte.com,Proxy
+  - DOMAIN-SUFFIX,thawte.de,Proxy
+  - DOMAIN-SUFFIX,thawte.fr,Proxy
+
+  - DOMAIN-SUFFIX,entrust.net,Proxy
+  - DOMAIN-SUFFIX,entrustdatacard.com,Proxy
+
+  - DOMAIN-SUFFIX,alphassl.com,Proxy
+  - DOMAIN-SUFFIX,globalsign-media.com,Proxy
+  - DOMAIN-SUFFIX,globalsign.be,Proxy
+  - DOMAIN-SUFFIX,globalsign.ch,Proxy
+  - DOMAIN-SUFFIX,globalsign.co.uk,Proxy
+  - DOMAIN-SUFFIX,globalsign.com,Proxy
+  - DOMAIN-SUFFIX,globalsign.com.au,Proxy
+  - DOMAIN-SUFFIX,globalsign.com.hk,Proxy
+  - DOMAIN-SUFFIX,globalsign.com.sg,Proxy
+  - DOMAIN-SUFFIX,globalsign.es,Proxy
+  - DOMAIN-SUFFIX,globalsign.eu,Proxy
+  - DOMAIN-SUFFIX,globalsign.fr,Proxy
+  - DOMAIN-SUFFIX,globalsign.net,Proxy
+  - DOMAIN-SUFFIX,globalsign.nl,Proxy
+
+  - DOMAIN-SUFFIX,godaddy.com,Proxy
+  - DOMAIN-SUFFIX,godaddy,Proxy
+
+  - DOMAIN-SUFFIX,pki.goog,Proxy
+
+  - DOMAIN-SUFFIX,eca.hinet.net,Proxy
+  - DOMAIN-SUFFIX,gtlsca.nat.gov.tw,Proxy
+
+  - DOMAIN-SUFFIX,hongkongpost.gov.hk,Proxy
+  - DOMAIN-SUFFIX,ecert.gov.hk,Proxy
+
+  - DOMAIN-SUFFIX,identrust.com,Proxy
+  - DOMAIN-SUFFIX,identrust.co.uk,Proxy
+  - DOMAIN-SUFFIX,identrust.net,Proxy
+
+  - DOMAIN-SUFFIX,lencr.org,Proxy
+  - DOMAIN-SUFFIX,letsencrypt.org,Proxy
+
+  - DOMAIN-SUFFIX,msocsp.com,Proxy
+
+  - DOMAIN-SUFFIX,secom.co.jp,Proxy
+  - DOMAIN-SUFFIX,secomtrust.net,Proxy
+
+  - DOMAIN-SUFFIX,enterprisessl.com,Proxy
+  - DOMAIN-SUFFIX,hackerguardian.com,Proxy
+  - DOMAIN-SUFFIX,instantssl.com,Proxy
+  - DOMAIN-SUFFIX,optimumssl.com,Proxy
+  - DOMAIN-SUFFIX,positivessl.com,Proxy
+  - DOMAIN-SUFFIX,sectigo.com,Proxy
+  - DOMAIN-SUFFIX,trust-provider.cn @cn,Proxy
+  - DOMAIN-SUFFIX,trust-provider.com,Proxy
+  - DOMAIN-SUFFIX,usertrust.com,Proxy
+
+  - DOMAIN-SUFFIX,ssl.com,Proxy
+
+  - DOMAIN-SUFFIX,digital-id.ch,Proxy
+  - DOMAIN-SUFFIX,digitalid.ch,Proxy
+  - DOMAIN-SUFFIX,managed-pki.ch,Proxy
+  - DOMAIN-SUFFIX,managed-pki.de,Proxy
+  - DOMAIN-SUFFIX,pki-post.ch,Proxy
+  - DOMAIN-SUFFIX,pki-posta.ch,Proxy
+  - DOMAIN-SUFFIX,pki-poste.ch,Proxy
+  - DOMAIN-SUFFIX,root-signing.ch,Proxy
+  - DOMAIN-SUFFIX,rootsigning.com,Proxy
+  - DOMAIN-SUFFIX,ssl-certificate.ch,Proxy
+  - DOMAIN-SUFFIX,swissid.ch,Proxy
+  - DOMAIN-SUFFIX,swissign.com,Proxy
+  - DOMAIN-SUFFIX,swissign.li,Proxy
+  - DOMAIN-SUFFIX,swisssign-group.ch,Proxy
+  - DOMAIN-SUFFIX,swisssign-group.com,Proxy
+  - DOMAIN-SUFFIX,swisssign-group.li,Proxy
+  - DOMAIN-SUFFIX,swisssign.ch,Proxy
+  - DOMAIN-SUFFIX,swisssign.com,Proxy
+  - DOMAIN-SUFFIX,swisssign.li,Proxy
+  - DOMAIN-SUFFIX,swisssign.net,Proxy
+  - DOMAIN-SUFFIX,swisssign.org,Proxy
+  - DOMAIN-SUFFIX,swisssigner.ch,Proxy
+  - DOMAIN-SUFFIX,swisssigner.com,Proxy
+  - DOMAIN-SUFFIX,swisssigngroup.ch,Proxy
+  - DOMAIN-SUFFIX,swisssigngroup.com,Proxy
+  - DOMAIN-SUFFIX,swissstick.com,Proxy
+  - DOMAIN-SUFFIX,swisstsa.ch,Proxy
+  - DOMAIN-SUFFIX,swisstsa.li,Proxy
+  - DOMAIN-SUFFIX,trustdoc.ch,Proxy
+  - DOMAIN-SUFFIX,trustsign.ch,Proxy
+  - DOMAIN-SUFFIX,zert.ch,Proxy
+
+  - DOMAIN-SUFFIX,telekom.com,Proxy
+  - DOMAIN-SUFFIX,telekom.de,Proxy
+
+  - DOMAIN-SUFFIX,trustwave.com,Proxy
+
+  - DOMAIN-SUFFIX,twca.com.tw,Proxy
+
+  - DOMAIN-SUFFIX,verisign.asia,Proxy
+  - DOMAIN-SUFFIX,verisign.biz,Proxy
+  - DOMAIN-SUFFIX,verisign.ch,Proxy
+  - DOMAIN-SUFFIX,verisign.co.in,Proxy
+  - DOMAIN-SUFFIX,verisign.co.uk,Proxy
+  - DOMAIN-SUFFIX,verisign.com,Proxy
+  - DOMAIN-SUFFIX,verisign.com.au,Proxy
+  - DOMAIN-SUFFIX,verisign.com.br,Proxy
+  - DOMAIN-SUFFIX,verisign.com.cn,Proxy
+  - DOMAIN-SUFFIX,verisign.com.es,Proxy
+  - DOMAIN-SUFFIX,verisign.com.hk,Proxy
+  - DOMAIN-SUFFIX,verisign.com.sg,Proxy
+  - DOMAIN-SUFFIX,verisign.com.tw,Proxy
+  - DOMAIN-SUFFIX,verisign.com.vn,Proxy
+  - DOMAIN-SUFFIX,verisign.de,Proxy
+  - DOMAIN-SUFFIX,verisign.dk,Proxy
+  - DOMAIN-SUFFIX,verisign.es,Proxy
+  - DOMAIN-SUFFIX,verisign.fr,Proxy
+  - DOMAIN-SUFFIX,verisign.hk,Proxy
+  - DOMAIN-SUFFIX,verisign.in,Proxy
+  - DOMAIN-SUFFIX,verisign.info,Proxy
+  - DOMAIN-SUFFIX,verisign.jobs,Proxy
+  - DOMAIN-SUFFIX,verisign.mobi,Proxy
+  - DOMAIN-SUFFIX,verisign.name,Proxy
+  - DOMAIN-SUFFIX,verisign.net,Proxy
+  - DOMAIN-SUFFIX,verisign.org,Proxy
+  - DOMAIN-SUFFIX,verisign.pro,Proxy
+  - DOMAIN-SUFFIX,verisign.se,Proxy
+  - DOMAIN-SUFFIX,verisign.sg,Proxy
+  - DOMAIN-SUFFIX,verisign.tw,Proxy
+  - DOMAIN-SUFFIX,verisign.us,Proxy
+  - DOMAIN-SUFFIX,verisign.vn,Proxy
+  - DOMAIN-SUFFIX,verisigninc.com,Proxy
 
   # > Other
   - DOMAIN-KEYWORD,appledaily,Proxy
