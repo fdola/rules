@@ -428,6 +428,13 @@ rules:
   # > wikiHow
   - DOMAIN-SUFFIX,wikihow.com,Proxy
 
+  # > Reddit
+  - DOMAIN-SUFFIX,reddit.com,Proxy
+  - DOMAIN-SUFFIX,redditstatic.com,Proxy
+  - DOMAIN-SUFFIX,redditmail.com,Proxy
+  - DOMAIN-SUFFIX,redditmedia.com,Proxy
+  - DOMAIN-SUFFIX,redd.it,Proxy
+
   # > hCaptcha
   - DOMAIN-SUFFIX,botstop.com,Proxy
   - DOMAIN-SUFFIX,hcaptcha.com,Proxy
