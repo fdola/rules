@@ -468,6 +468,33 @@ rules:
   - DOMAIN-SUFFIX,golang.net,Proxy
   - DOMAIN-SUFFIX,golang.org,Proxy
 
+  - DOMAIN-SUFFIX,2mdn.net,Proxy
+  - DOMAIN-SUFFIX,admob.com,Proxy
+  - DOMAIN-SUFFIX,ads.youtube.com,Proxy
+  - DOMAIN-SUFFIX,adsense.com,Proxy
+  - DOMAIN-SUFFIX,adsensecustomsearchads.com,Proxy
+  - DOMAIN-SUFFIX,adsenseformobileapps.com,Proxy
+  - DOMAIN-SUFFIX,adservice.google.com,Proxy
+  - DOMAIN-SUFFIX,advertisercommunity.com,Proxy
+  - DOMAIN-SUFFIX,advertiserscommunity.com,Proxy
+  - DOMAIN-SUFFIX,adwords-community.com,Proxy
+  - DOMAIN-SUFFIX,adwords.com,Proxy
+  - DOMAIN-SUFFIX,adwordsexpress.com,Proxy
+  - DOMAIN-SUFFIX,app-measurement.com,Proxy
+  - DOMAIN-SUFFIX,clickserver.googleads.com,Proxy
+  - DOMAIN-SUFFIX,doubleclick.com,Proxy
+  - DOMAIN-SUFFIX,doubleclick.net,Proxy
+  - DOMAIN-SUFFIX,google-analytics.com,Proxy
+  - DOMAIN-SUFFIX,googleadapis.com,Proxy
+  - DOMAIN-SUFFIX,googleadservices.com,Proxy
+  - DOMAIN-SUFFIX,googleanalytics.com,Proxy
+  - DOMAIN-SUFFIX,googleoptimize.com,Proxy
+  - DOMAIN-SUFFIX,googlesyndication.com,Proxy
+  - DOMAIN-SUFFIX,googletagmanager.com,Proxy
+  - DOMAIN-SUFFIX,googletagservices.com,Proxy
+  - DOMAIN-SUFFIX,googletraveladservices.com,Proxy
+  - DOMAIN-SUFFIX,urchin.com,Proxy
+
   - DOMAIN-SUFFIX,charlestonroadregistry.com,Proxy
   - DOMAIN-SUFFIX,registry.google,Proxy
   - DOMAIN-SUFFIX,get.app,Proxy
