@@ -1274,6 +1274,7 @@ rules:
   - DOMAIN-SUFFIX,amazon-jp-recruiting.com,Proxy
   - DOMAIN-SUFFIX,amazon-lantern.com,Proxy
   - DOMAIN-SUFFIX,amazon-launchpad.com,Proxy
+  - DOMAIN-SUFFIX,amazon.com,Proxy
   - DOMAIN-SUFFIX,amazon.sg,Proxy
   - DOMAIN-SUFFIX,amazonalexavoxcon.com,Proxy
   - DOMAIN-SUFFIX,amazonauthorinsights.com,Proxy
