@@ -1224,6 +1224,7 @@ DOMAIN-SUFFIX,awsedstart.com
 DOMAIN-SUFFIX,awseducate.com
 DOMAIN-SUFFIX,awseducate.net
 DOMAIN-SUFFIX,awseducate.org
+DOMAIN-SUFFIX,awsglobalaccelerator.com
 DOMAIN-SUFFIX,awsloft-johannesburg.com
 DOMAIN-SUFFIX,awsloft-stockholm.com
 DOMAIN-SUFFIX,awssecworkshops.com
