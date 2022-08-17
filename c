@@ -439,6 +439,10 @@ rules:
   - DOMAIN-SUFFIX,hcaptcha.com,Proxy
   - DOMAIN-SUFFIX,hcaptchastatus.com,Proxy
 
+  # > Imgur
+  - DOMAIN-SUFFIX,imgur.com,Proxy
+  - DOMAIN-SUFFIX,imgurinc.com,Proxy
+
   # > Google
   - DOMAIN-SUFFIX,android.com,Proxy
   - DOMAIN-SUFFIX,androidify.com,Proxy
