@@ -1442,6 +1442,7 @@ rules:
   - DOMAIN-SUFFIX,awseducate.com,Proxy
   - DOMAIN-SUFFIX,awseducate.net,Proxy
   - DOMAIN-SUFFIX,awseducate.org,Proxy
+  - DOMAIN-SUFFIX,awsglobalaccelerator.com,Proxy
   - DOMAIN-SUFFIX,awsloft-johannesburg.com,Proxy
   - DOMAIN-SUFFIX,awsloft-stockholm.com,Proxy
   - DOMAIN-SUFFIX,awssecworkshops.com,Proxy
