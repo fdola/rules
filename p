@@ -226,6 +226,10 @@ DOMAIN-SUFFIX,botstop.com
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,hcaptchastatus.com
 
+# > Imgur
+DOMAIN-SUFFIX,imgur.com
+DOMAIN-SUFFIX,imgurinc.com
+
 # > Google
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,androidify.com
