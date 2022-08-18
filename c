@@ -1321,6 +1321,7 @@ rules:
   # > Cloudflare
   - DOMAIN-SUFFIX,cloudflare-dns.com,Proxy
   - DOMAIN-SUFFIX,cloudflare-ipfs.com,Proxy
+  - DOMAIN-SUFFIX,cf-ipfs.com,Proxy
   - DOMAIN-SUFFIX,cloudflare-quic.com,Proxy
   - DOMAIN-SUFFIX,cloudflare.com,Proxy
   - DOMAIN-SUFFIX,cloudflare.net,Proxy
