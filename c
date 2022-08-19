@@ -85,6 +85,7 @@ rules:
   - DOMAIN-SUFFIX,contest.com,Proxy
   - DOMAIN-SUFFIX,graph.org,Proxy
   - DOMAIN-SUFFIX,quiz.directory,Proxy
+  - DOMAIN-SUFFIX,stel.com,Proxy
   - DOMAIN-SUFFIX,t.me,Proxy
   - DOMAIN-SUFFIX,tdesktop.com,Proxy
   - DOMAIN-SUFFIX,telega.one,Proxy
@@ -93,6 +94,7 @@ rules:
   - DOMAIN-SUFFIX,telegram.me,Proxy
   - DOMAIN-SUFFIX,telegram.org,Proxy
   - DOMAIN-SUFFIX,telegram.space,Proxy
+  - DOMAIN-SUFFIX,telegramdownload.com,Proxy
   - DOMAIN-SUFFIX,telesco.pe,Proxy
   - DOMAIN-SUFFIX,tg.dev,Proxy
   - DOMAIN-SUFFIX,tx.me,Proxy
@@ -117,6 +119,7 @@ rules:
   - IP-CIDR,149.154.164.0/22,Proxy,no-resolve
   - IP-CIDR,149.154.172.0/22,Proxy,no-resolve
   - IP-CIDR,5.28.192.0/18,Proxy,no-resolve
+  - IP-CIDR,95.161.64.0/20,Proxy,no-resolve
 
   # > Youtube
   - DOMAIN-SUFFIX,youtube,Proxy
@@ -1632,6 +1635,7 @@ rules:
   - DOMAIN-KEYWORD,twitter,Proxy
   - DOMAIN-KEYWORD,whatsapp,Proxy
   - DOMAIN-KEYWORD,google,Proxy
+  - DOMAIN-KEYWORD,telegram,Proxy
 
   # > Lan
   - DOMAIN-SUFFIX,local,DIRECT
