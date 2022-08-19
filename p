@@ -49,6 +49,7 @@ DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,contest.com
 DOMAIN-SUFFIX,graph.org
 DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,stel.com
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telega.one
@@ -57,6 +58,7 @@ DOMAIN-SUFFIX,telegram.dog
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegramdownload.com
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,tx.me
@@ -81,6 +83,7 @@ IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.164.0/22,no-resolve
 IP-CIDR,149.154.172.0/22,no-resolve
 IP-CIDR,5.28.192.0/18,no-resolve
+IP-CIDR,95.161.64.0/20,no-resolve
 
 # > Youtube
 DOMAIN-SUFFIX,youtube
@@ -1596,3 +1599,4 @@ DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,telegram
