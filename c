@@ -164,6 +164,7 @@ rules:
 
   - DOMAIN-SUFFIX,amazonaws.com,Media
   - DOMAIN-SUFFIX,akamaiedge.net,Media
+  - DOMAIN-SUFFIX,cookielaw.org,Media
 
   - DOMAIN,netflix.com.edgesuite.net,Media
   
