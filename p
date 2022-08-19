@@ -1269,6 +1269,7 @@ DOMAIN-SUFFIX,netflixdnstest10.com
 
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,cookielaw.org
 
 DOMAIN,netflix.com.edgesuite.net
   
