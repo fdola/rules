@@ -1,4 +1,4 @@
-# Proxy Groups:Proxy(Youtube), ProxyUS, Media(Netflix, DisneyPlus), Paypal
+# Proxy Groups:Proxy(Youtube), ProxyUS, Netflix, Media(DisneyPlus), Paypal
 rules:
   # > REJECT
   - DOMAIN,sb.scorecardresearch.com,REJECT
@@ -12,6 +12,8 @@ rules:
   - SRC-IP-CIDR,192.168.1.99/32,Proxy
 
   # > CUS
+  - DOMAIN-SUFFIX,owlook.com.cn,Proxy
+  - DOMAIN-SUFFIX,6kshu.com,Proxy
   - DOMAIN-SUFFIX,hostloc.com,Proxy
   - DOMAIN-SUFFIX,v2ex.com,Proxy
   - DOMAIN-SUFFIX,deepl.com,Proxy
@@ -138,62 +140,62 @@ rules:
   - DOMAIN-SUFFIX,googleapis.com,Proxy
 
   # > Netflix
-  - DOMAIN-SUFFIX,fast.com,Media
-  - DOMAIN-SUFFIX,netflix.ca,Media
-  - DOMAIN-SUFFIX,netflix.com,Media
-  - DOMAIN-SUFFIX,netflix.net,Media
-  - DOMAIN-SUFFIX,netflixinvestor.com,Media
-  - DOMAIN-SUFFIX,netflixtechblog.com,Media
-  - DOMAIN-SUFFIX,nflxext.com,Media
-  - DOMAIN-SUFFIX,nflximg.com,Media
-  - DOMAIN-SUFFIX,nflximg.net,Media
-  - DOMAIN-SUFFIX,nflxsearch.net,Media
-  - DOMAIN-SUFFIX,nflxso.net,Media
-  - DOMAIN-SUFFIX,nflxvideo.net,Media
+  - DOMAIN-SUFFIX,fast.com,Netflix
+  - DOMAIN-SUFFIX,netflix.ca,Netflix
+  - DOMAIN-SUFFIX,netflix.com,Netflix
+  - DOMAIN-SUFFIX,netflix.net,Netflix
+  - DOMAIN-SUFFIX,netflixinvestor.com,Netflix
+  - DOMAIN-SUFFIX,netflixtechblog.com,Netflix
+  - DOMAIN-SUFFIX,nflxext.com,Netflix
+  - DOMAIN-SUFFIX,nflximg.com,Netflix
+  - DOMAIN-SUFFIX,nflximg.net,Netflix
+  - DOMAIN-SUFFIX,nflxsearch.net,Netflix
+  - DOMAIN-SUFFIX,nflxso.net,Netflix
+  - DOMAIN-SUFFIX,nflxvideo.net,Netflix
 
-  - DOMAIN-SUFFIX,netflixdnstest1.com,Media
-  - DOMAIN-SUFFIX,netflixdnstest2.com,Media
-  - DOMAIN-SUFFIX,netflixdnstest3.com,Media
-  - DOMAIN-SUFFIX,netflixdnstest4.com,Media
-  - DOMAIN-SUFFIX,netflixdnstest5.com,Media
-  - DOMAIN-SUFFIX,netflixdnstest6.com,Media
-  - DOMAIN-SUFFIX,netflixdnstest7.com,Media
-  - DOMAIN-SUFFIX,netflixdnstest8.com,Media
-  - DOMAIN-SUFFIX,netflixdnstest9.com,Media
-  - DOMAIN-SUFFIX,netflixdnstest10.com,Media
+  - DOMAIN-SUFFIX,netflixdnstest1.com,Netflix
+  - DOMAIN-SUFFIX,netflixdnstest2.com,Netflix
+  - DOMAIN-SUFFIX,netflixdnstest3.com,Netflix
+  - DOMAIN-SUFFIX,netflixdnstest4.com,Netflix
+  - DOMAIN-SUFFIX,netflixdnstest5.com,Netflix
+  - DOMAIN-SUFFIX,netflixdnstest6.com,Netflix
+  - DOMAIN-SUFFIX,netflixdnstest7.com,Netflix
+  - DOMAIN-SUFFIX,netflixdnstest8.com,Netflix
+  - DOMAIN-SUFFIX,netflixdnstest9.com,Netflix
+  - DOMAIN-SUFFIX,netflixdnstest10.com,Netflix
 
-  - DOMAIN-SUFFIX,amazonaws.com,Media
-  - DOMAIN-SUFFIX,akamaiedge.net,Media
-  - DOMAIN-SUFFIX,cookielaw.org,Media
+  - DOMAIN-SUFFIX,amazonaws.com,Netflix
+  - DOMAIN-SUFFIX,akamaiedge.net,Netflix
+  - DOMAIN-SUFFIX,cookielaw.org,Netflix
 
-  - DOMAIN,netflix.com.edgesuite.net,Media
+  - DOMAIN,netflix.com.edgesuite.net,Netflix
   
-  - DOMAIN-KEYWORD,netflixdnstest,Media
-  - DOMAIN-KEYWORD,dualstack.apiproxy-,Media
-  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,Media
-  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Media
+  - DOMAIN-KEYWORD,netflixdnstest,Netflix
+  - DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
+  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,Netflix
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Netflix
 
-  - IP-CIDR,23.246.0.0/18,Media,no-resolve
-  - IP-CIDR,37.77.184.0/21,Media,no-resolve
-  - IP-CIDR,38.72.126.0/24,Media,no-resolve
-  - IP-CIDR,45.57.0.0/17,Media,no-resolve
-  - IP-CIDR,64.120.128.0/17,Media,no-resolve
-  - IP-CIDR,66.197.128.0/17,Media,no-resolve
-  - IP-CIDR,69.53.224.0/19,Media,no-resolve
-  - IP-CIDR,103.87.204.0/22,Media,no-resolve
-  - IP-CIDR,108.175.32.0/20,Media,no-resolve
-  - IP-CIDR,185.2.220.0/22,Media,no-resolve
-  - IP-CIDR,185.9.188.0/22,Media,no-resolve
-  - IP-CIDR,192.173.64.0/18,Media,no-resolve
-  - IP-CIDR,198.38.96.0/19,Media,no-resolve
-  - IP-CIDR,198.45.48.0/20,Media,no-resolve
-  - IP-CIDR,208.75.76.0/22,Media,no-resolve
-  - IP-CIDR,34.210.42.111/32,Media,no-resolve
-  - IP-CIDR,52.89.124.203/32,Media,no-resolve
-  - IP-CIDR,54.148.37.5/32,Media,no-resolve
+  - IP-CIDR,23.246.0.0/18,Netflix,no-resolve
+  - IP-CIDR,37.77.184.0/21,Netflix,no-resolve
+  - IP-CIDR,38.72.126.0/24,Netflix,no-resolve
+  - IP-CIDR,45.57.0.0/17,Netflix,no-resolve
+  - IP-CIDR,64.120.128.0/17,Netflix,no-resolve
+  - IP-CIDR,66.197.128.0/17,Netflix,no-resolve
+  - IP-CIDR,69.53.224.0/19,Netflix,no-resolve
+  - IP-CIDR,103.87.204.0/22,Netflix,no-resolve
+  - IP-CIDR,108.175.32.0/20,Netflix,no-resolve
+  - IP-CIDR,185.2.220.0/22,Netflix,no-resolve
+  - IP-CIDR,185.9.188.0/22,Netflix,no-resolve
+  - IP-CIDR,192.173.64.0/18,Netflix,no-resolve
+  - IP-CIDR,198.38.96.0/19,Netflix,no-resolve
+  - IP-CIDR,198.45.48.0/20,Netflix,no-resolve
+  - IP-CIDR,208.75.76.0/22,Netflix,no-resolve
+  - IP-CIDR,34.210.42.111/32,Netflix,no-resolve
+  - IP-CIDR,52.89.124.203/32,Netflix,no-resolve
+  - IP-CIDR,54.148.37.5/32,Netflix,no-resolve
 
-  - IP-CIDR,8.8.8.8/32,Media,no-resolve
-  - IP-CIDR,8.8.4.4/32,Media,no-resolve
+  - IP-CIDR,8.8.8.8/32,Netflix,no-resolve
+  - IP-CIDR,8.8.4.4/32,Netflix,no-resolve
 
   # > Disney Plus
   - DOMAIN-SUFFIX,abc-studios.com,Media
