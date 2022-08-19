@@ -1,4 +1,6 @@
 # > CUS
+DOMAIN-SUFFIX,owlook.com.cn
+DOMAIN-SUFFIX,6kshu.com
 DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,deepl.com
