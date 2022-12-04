@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,gitcdn.xyz
 DOMAIN-SUFFIX,gitcdn.link
 DOMAIN-SUFFIX,secureservercdn.net
 DOMAIN-SUFFIX,privnote.com
+DOMAIN-SUFFIX,lvv2.com
+DOMAIN-SUFFIX,good.news
 DOMAIN-SUFFIX,openai.com
 
 # > Apple
