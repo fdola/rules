@@ -25,6 +25,8 @@ rules:
   - DOMAIN-SUFFIX,gitcdn.link,Proxy
   - DOMAIN-SUFFIX,secureservercdn.net,Proxy
   - DOMAIN-SUFFIX,privnote.com,Proxy
+  - DOMAIN-SUFFIX,lvv2.com,Proxy
+  - DOMAIN-SUFFIX,good.news,Proxy
   - DOMAIN-SUFFIX,openai.com,Proxy
   
   # > IPTV
