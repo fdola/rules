@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,privnote.com
 DOMAIN-SUFFIX,lvv2.com
 DOMAIN-SUFFIX,good.news
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,vn
 
 # > Apple
 DOMAIN-SUFFIX,cdn-apple.com
